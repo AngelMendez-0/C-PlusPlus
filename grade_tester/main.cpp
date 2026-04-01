@@ -14,7 +14,7 @@ int main() {
     while (students <= 0) {
         std::cout << "Please enter the amount of students greater than 0: ";
 
-        if (!(std::cin >> students)) {
+        if (!(std::cin >> students)|| !(std::cin.get() == '\n')) {
             std::cout << "Error: please enter a valid integer \n";
 
             std::cin.clear();
@@ -29,7 +29,7 @@ int main() {
         while (true) {
             std::cout << "Student" << i + 1 << " Grade: ";
 
-            if (!(std::cin >> grade)) {
+            if (!(std::cin >> grade)|| !(std::cin.get() == '\n')) {
                 std::cout << "Error: please enter a valid integer \n";
 
                 std::cin.clear();
