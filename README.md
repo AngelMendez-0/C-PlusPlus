@@ -6,3 +6,6 @@ This repository contains implementations of basic C++ utalizing Streams, Classes
 Utalizes: C++11, C++14, C++17 and C++20
 
 ## File Descriptions
+
+### Grade Tester
+C++ program demonstrating user input handling, loops, and basic statistics by collecting student grades and calculating the average, maximum, and minimum values.
